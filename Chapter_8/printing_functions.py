@@ -1,4 +1,5 @@
-# Per Exercise 8-15, copying the printing_models.py file so it can be imported as a module
+""" Per Exercise 8-15, copying the printing_models.py file
+    so it can be imported as a module """
 
 def print_models(unprinted_designs, completed_models):
     """
@@ -16,3 +17,5 @@ def show_completed_models(completed_models):
     print("\nThe following models have been printed:")
     for completed_model in completed_models:
         print(completed_model)
+
+        
