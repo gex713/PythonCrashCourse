@@ -12,8 +12,8 @@ class Admin(User):
 
 class Privileges:
     """The privileges that can be available."""
-    def __init__(self, privileges=["can add post", "can delete post", "can ban user"]):
-        self.privileges = privileges
+    def __init__(self):
+        self.privileges = ["can add post", "can delete post", "can ban user"]
 
     def show_privs(self):
         """Prints out all the available privileges."""
